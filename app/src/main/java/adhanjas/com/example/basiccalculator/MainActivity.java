@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTheme(R.style.Theme_Basiccalculator);
 
         num1=findViewById(R.id.editTextNumber);
         num2=findViewById(R.id.editTextNum2);
